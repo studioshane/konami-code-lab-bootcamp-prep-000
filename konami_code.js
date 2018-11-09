@@ -23,6 +23,8 @@ document.body.addEventListener('keydown', function(e) {
 
   if (key == requiredKey) {
     
+    console.log(key)
+    
     i++;
 
     if (i == codes.length) {
